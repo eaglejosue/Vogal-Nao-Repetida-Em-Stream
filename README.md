@@ -33,7 +33,7 @@ public interface IStream {
 }
 
 ## Resolução
-Foi criada a Inteface IStream confome o enunciado e uma implementação Stream. Esta interface recebe uma String como parametro na sua construção que será usada no algoritimo para busca da primeira vogal não repetida. Todo o algoritimo para encontrar o caracter esta contido dentro da classe PrimeiroCaracterNaoRepetido no método estático EncontraPrimeiraVogalNaoRepetida.
+Foi criada a Inteface IStream confome o enunciado e uma implementação Stream. Esta interface recebe uma String como parametro na sua construção que será usada no algoritimo para busca da primeira vogal não repetida. Todo o algoritimo para encontrar o caracter esta contido dentro da classe EncontraPrimeiraVogalNaoRepetida.
 
 Dentro do pacote de testes encontra-se na classe VogalNaoRepetidaEmStreamTeste a qual testa alguns cenários, incluindo se foram ou não passado valores nulos, testa os métodos hasNext() e getNext() e obviamente casos em que deve e não deve ser encontra a vogal não repetida
 
