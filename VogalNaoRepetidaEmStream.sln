@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VogalNaoRepetidaEmStream", "VogalNaoRepetidaEmStream\VogalNaoRepetidaEmStream.csproj", "{AD3CC203-6192-46E0-9236-B212D15E22BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testes", "Testes\Testes.csproj", "{FD2B9227-896C-4EAD-80AB-BFC32EEA60F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD3CC203-6192-46E0-9236-B212D15E22BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3CC203-6192-46E0-9236-B212D15E22BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD3CC203-6192-46E0-9236-B212D15E22BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD3CC203-6192-46E0-9236-B212D15E22BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD2B9227-896C-4EAD-80AB-BFC32EEA60F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD2B9227-896C-4EAD-80AB-BFC32EEA60F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD2B9227-896C-4EAD-80AB-BFC32EEA60F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD2B9227-896C-4EAD-80AB-BFC32EEA60F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92967969-760A-4FB3-AD4D-B521C01DAA30}
+	EndGlobalSection
+EndGlobal
