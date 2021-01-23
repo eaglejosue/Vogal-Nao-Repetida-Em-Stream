@@ -66,7 +66,7 @@ namespace Testes
             var streamInput = "sderEtDIvAgBiHju";
             var vogal = new EncontraPrimeiraVogalNaoRepetida().Encontra(new PrimeiroCaracterNaoRepetido(streamInput));
 
-            Assert.AreEqual('A', vogal.ToString().ToUpper());
+            Assert.AreEqual("A", vogal.ToString().ToUpper());
         }
 
         [TestMethod]
@@ -75,7 +75,7 @@ namespace Testes
             var streamInput = "rabumEnbsdAjhkUjsf";
             var vogal = new EncontraPrimeiraVogalNaoRepetida().Encontra(new PrimeiroCaracterNaoRepetido(streamInput));
 
-            Assert.AreEqual('E', vogal.ToString().ToUpper());
+            Assert.AreEqual("E", vogal.ToString().ToUpper());
         }
 
         [TestMethod]
@@ -84,16 +84,16 @@ namespace Testes
             var streamInput = "qwehEjkladsIfBnAeRweu";
             var vogal = new EncontraPrimeiraVogalNaoRepetida().Encontra(new PrimeiroCaracterNaoRepetido(streamInput));
 
-            Assert.AreEqual('I', vogal.ToString().ToUpper());
+            Assert.AreEqual("I", vogal.ToString().ToUpper());
         }
 
         [TestMethod]
         public void EncontraPrimeiraVogalNaoRepetida10()
         {
-            var streamInput = "aBcDhAjYiOQwErty";
+            var streamInput = "aBcDhAjYiOQwErtIy";
             var vogal = new EncontraPrimeiraVogalNaoRepetida().Encontra(new PrimeiroCaracterNaoRepetido(streamInput));
 
-            Assert.AreEqual('O', vogal.ToString().ToUpper());
+            Assert.AreEqual("O", vogal.ToString().ToUpper());
         }
 
         [TestMethod]
@@ -102,7 +102,7 @@ namespace Testes
             var streamInput = "aBcDhAjYUoiOQwErty";
             var vogal = new EncontraPrimeiraVogalNaoRepetida().Encontra(new PrimeiroCaracterNaoRepetido(streamInput));
 
-            Assert.AreEqual('U', vogal.ToString().ToUpper());
+            Assert.AreEqual("U", vogal.ToString().ToUpper());
         }
     }
 }
